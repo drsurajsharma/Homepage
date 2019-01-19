@@ -21,15 +21,15 @@ html,body{
 	color: #FFF;
 }
 
-#home{
-	background:url('../static/4.jpg') no-repeat center center fixed;
-	display: table;
-	height: 100%;
-	position: relative;
-	width:100%;
-	background-size: cover;
-	
-}
+/*	#home{
+		background:url('../static/4.jpg') no-repeat center center fixed;
+		display: table;
+		height: 100%;
+		position: relative;
+		width:100%;
+		background-size: cover;
+		
+	}
 
 .landing-text{
 	display: table-cell;
@@ -44,6 +44,13 @@ html,body{
 }
 h3{
 	color: white;
+}*/
+h3,p{
+	padding-right: 80px;
+}
+#myCarousel{
+	padding-top: 80px;
+	padding-left: 80px;
 }
 .padding {
 	padding: 80px 0;

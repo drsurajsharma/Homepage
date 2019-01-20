@@ -46,11 +46,17 @@ h3{
 	color: white;
 }*/
 h3,p{
-	padding-right: 80px;
+	/*padding-right: 80px;*/
+
 }
 #myCarousel{
-	padding-top: 80px;
-	padding-left: 70px;
+	position: relative;
+	top: 10%;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-bottom: 20px;
+	/*padding-top: 80px;
+	padding-left: 70px;*/
 }
 .padding {
 	padding: 80px 0;
@@ -61,10 +67,13 @@ h3,p{
 #fixed {
 	background: url(../static/transwal.jpg) no-repeat center center fixed;
 	display: table;
-	height: 60%;
+	height: 40%;
 	position: relative;
 	width: 100%;
 	background-size: cover;
+}
+.lead{
+	text-align: justify;
 }
 
 footer {

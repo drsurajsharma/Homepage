@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RD</title>
+	<link rel="stylesheet" href="../css/stylete.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style type="text/css">
+  body{
+  background-color:  #9AF59B;
+  }
+</style>
+<body>
+  <section id="bar">
+    <nav class="navbar fixed-top navbar-expand  navbar-dark"  >
+        
+            <a class="navbar-brand" href="#">
+            <img src="../static/logos.png" width="40" height="30"  alt="">
+            IIIT BBSR
+            </a>
+        
+        
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse go-right" id="navbarSupportedContent"> -->
+        <div class="navbar nav">
+          <nav  class="navbar-right">
+            <ul class="navbar-nav mr-auto" style="margin-left: 3rem;">
+            <li class="nav-item ">
+                <a class="nav-link" href="../index.html">HOME </a>
+            </li>
+            <li class="nav-item "  style="margin-left: 3rem; ">
+                <a class="nav-link" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item "  style="margin-left: 3rem; ">
+                <a class="nav-link" href="#">RESEARCH</a>
+            </li>
+            <li class="nav-item active " style="margin-left: 3rem; ">
+                <a class="nav-link" href="pages/team.html">TEAM</a>
+            </li>
+            </ul>
+          </nav>
+        </div>
+    </nav>
+  </section>
+
+
+     
+
+
+
+<section>
+  <footer class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Contact Us</h3>
+        <h4>IIIT BBSR</h4>
+        <h4>Gothapatna,Malipada</h4>
+        <h4>PO-751003</h4>
+      </div>
+      <div class="col-sm-4">
+        <h3>Connect</h3>
+        <a href="#"class="fa fa-facebook"></a>
+        <a href="#"class="fa fa-twitter"></a>
+        <a href="#"class="fa fa-linkedin"></a>
+        <a href="#"class="fa fa-google"></a>
+        <a href="#"class="fa fa-youtube"></a>
+      </div>
+      <div class="col-sm-4">
+        <img src="static/logos.png " class="icon">
+      </div>
+    </div>
+  </footer>
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function() {
+      // Transition effect for navbar 
+      $(window).scroll(function() {
+        // checks if window is scrolled more than 500px, adds/removes solid class
+        if($(this).scrollTop() > 200) { 
+            $('.navbar').addClass('solid');
+        } else {
+            $('.navbar').removeClass('solid');
+        }
+      });
+});
+</script>
+</body>
+</html>

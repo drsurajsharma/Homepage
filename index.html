@@ -3,48 +3,59 @@
 <head>
 	<meta charset="UTF-8">
 	<title>RD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<style type="text/css">
+  body{
+    background-color:#9AF59B;
+  }
+</style>
 <body>
   <section id="bar">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light"  >
-          <nav class="navbar navbar-light bg-light">
+      <nav class="navbar fixed-top navbar-expand  navbar-dark"  >
+          
               <a class="navbar-brand" href="#">
-              <img src="static/logos.png" width="40" height="30" class="d-inline-block align-top" alt="">
+              <img src="static/logos.png" width="40" height="30"  alt="">
               IIIT BBSR
               </a>
-          </nav>
           
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
           
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+          <div class="collapse navbar-collapse go-right" id="navbarSupportedContent"> -->
+          <div class="navbar nav">
+            <nav  class="navbar-right">
+              <ul class="navbar-nav mr-auto" style="margin-left: 3rem;">
               <li class="nav-item active">
-                  <a class="nav-link" href="#">Home </a>
+                  <a class="nav-link" href="#">HOME </a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
+              <li class="nav-item "  style="margin-left: 3rem; ">
+                  <a class="nav-link" href="#">PROJECTS</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Research</a>
+              <li class="nav-item "  style="margin-left: 3rem; ">
+                  <a class="nav-link" href="#">RESEARCH</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+              <li class="nav-item " style="margin-left: 3rem; ">
+                  <a class="nav-link" href="pages/team.html">TEAM</a>
               </li>
               </ul>
-
+            </nav>
           </div>
       </nav>
   </section>
-<!-- <div class="container">
-  <div class="row">
-    <img src="" alt="">
-  </div>
-</div> -->
+<div id="imgcon">
+  
+    <!-- <img src="static/lab1.jpg" style=" width:98.5vw;
+  height:100vh;
+   " alt=""> -->
+   <h2>THE IOT AND CC LAB</h2>
+
+</div>
 
 <div class="container" >
  <div class="row">
@@ -63,7 +74,7 @@
       </div>
    </div>
    <div class="col-md-6">
-     <div class="container">
+     <div class="container" style=" ">
        <!-- <p style="margin-top: 5vh; font-size: 30px; font-weight: 400px;">WE NEED IOT</p> -->
        <img src="static/iot2.png"  alt="">
      </div>
@@ -71,14 +82,14 @@
  </div> 
 </div>
 
-<section id="table">
+<!-- <section id="table"> -->
   <!-- <div class="container" style="text-align: center; display: inline-block;">
     <div class="row">
         <h2>WHY IOT </h2>
     </div>
-  </div> -->
+  </div>
   <div class="jumbotron jumbotron-fluid" style="margin: 0px; background-color:  #e3f2fd;">
-    <div class="container" style="text-align: center; display: inline-block; margin-left: 10px;">
+    <div class="container" style="text-align: center; display: inline-block; margin-left: 40px;">
       <h1 class="display-4">WHY IOT</h1>
     </div>
   </div>
@@ -118,23 +129,26 @@
     </div>
   </div>
 </section>
-
-<section id="menu">
+ -->
+<section id="menu" style="background-color: #e3f2fd;  ">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
         <div id="image1">
-          <img src="static/iot2.png" height="400" width="400" alt="">
+          <video playsinline  autoplay loop >
+            <source src="static/smartpark.mp4" type="video/mp4">
+            <source src="static/smartpark.ogg" type="video/ogg">            
+          </video>
         </div>
         
       </div>
       <div class="col-md-6">
         <div class="container" style="justify-content: center;">
           <div class="jumbotron1">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <h1 class="display-4">Smart Parking</h1>
+            <p class="lead">Our Project ​“EasyPark” ​ is an app that helps to find a nearest parking spot. By Deep learning and Internet of things we are trying to find out ways to check current parking status. </p>
             <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p> EasyPark would be able to provide nearest parking spot to a user by checking the Occupancy status of Parking .</p>
           </div>
         </div>
       </div>
@@ -142,13 +156,13 @@
   </div>
 </section>
 
-<section id="menu" style="background-color: #e3f2fd;">
+<section id="menu" style="">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <div class="container" style="justify-content: center;">
           <div class="jumbotron2">
-            <h1 class="display-4">Hello, world!</h1>
+            <h1 class="display-4">CC LAB</h1>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
             <hr class="my-4">
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -182,10 +196,13 @@
         <a href="#"class="fa fa-google"></a>
         <a href="#"class="fa fa-youtube"></a>
       </div>
-      <div class="col-sm-4">
-        <img src="static/logos.png " class="icon">
+      <div class="col-lg-4" >
+
+        <img src="static/logos.png " height="150px" class="icon">
       </div>
+
     </div>
+
   </footer>
 </section>
 
@@ -198,7 +215,7 @@
       // Transition effect for navbar 
       $(window).scroll(function() {
         // checks if window is scrolled more than 500px, adds/removes solid class
-        if($(this).scrollTop() > 200) { 
+        if($(this).scrollTop() > 100) { 
             $('.navbar').addClass('solid');
         } else {
             $('.navbar').removeClass('solid');

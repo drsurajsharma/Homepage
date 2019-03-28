@@ -1,0 +1,591 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	max-width: 100%;
+	overflow-x: hidden;
+	background-color: #9AF59B;
+}
+nav{
+	overflow-x: hidden;
+	max-width: 100%;
+	padding: 0;
+}
+.nav-link{
+      margin:0 30px;
+}
+#imgcon{
+  background-image:url(../static/lab1.jpg);
+  background-size: cover;
+  height: 680px; 
+  transform: translateY(-25px);	
+}
+#imgcon h2{
+	  text-align: center; 
+  padding-top:35%;
+  color: white;
+  font-family: sans-serif;
+  font-style: italic;  
+  font-size: 50px;
+  font-weight:bold; 
+}
+.col-12{
+	padding: 0;
+}
+#header {
+  display: flex;
+  margin: 15px auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  
+}
+#header .slogan {
+  max-width: 800px;
+  padding: 8px 15px;
+  background:#0000;
+  border-radius: 3px;
+  transition: all .3s ease-in-out;
+ /* box-shadow: 0 0 45px 0 #6e2e72;*/
+}
+#header p {
+  display: block;
+  font-weight: 700;
+  font-size: 2em;
+  position: relative;
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+.words {
+  text-align: left;
+  width: 220px;
+  height: 40px;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-animation: changewords 7s infinite;
+          animation: changewords 7s infinite;
+}
+
+.word {
+  color: #DE6449;
+  position: absolute;
+  top: 0;
+  height: 60px;
+  width: 180px;
+  overflow: hidden;
+  -webkit-animation: changewordfirst 7s infinite;
+          animation: changewordfirst 7s infinite;
+}
+.word:nth-of-type(2) {
+  color: #791E94;
+  -webkit-animation: changewordsecond 7s infinite;
+          animation: changewordsecond 7s infinite;
+}
+.word:nth-of-type(3) {
+  color: #41D3BD;
+  -webkit-animation: changewordthird 7s infinite;
+          animation: changewordthird 7s infinite;
+}
+
+@-webkit-keyframes changewordfirst {
+  0% {
+    width: 160px;
+  }
+  16.5% {
+    width: 160px;
+  }
+  25% {
+    width: 0;
+  }
+  93.75% {
+    width: 0;
+  }
+  100% {
+    width: 160px;
+  }
+}
+
+@keyframes changewordfirst {
+  0% {
+    width: 160px;
+  }
+  16.5% {
+    width: 160px;
+  }
+  25% {
+    width: 0;
+  }
+  93.75% {
+    width: 0;
+  }
+  100% {
+    width: 160px;
+  }
+}
+@-webkit-keyframes changewordsecond {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 0;
+  }
+  33% {
+    width: 195px;
+  }
+  50% {
+    width: 195px;
+  }
+  58.25% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
+}
+@keyframes changewordsecond {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 0;
+  }
+  33% {
+    width: 195px;
+  }
+  50% {
+    width: 195px;
+  }
+  58.25% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
+}
+@-webkit-keyframes changewordthird {
+  0% {
+    width: 0;
+  }
+  58.25% {
+    width: 0;
+  }
+  66% {
+    width: 125px;
+  }
+  85% {
+    width: 125px;
+  }
+  93.75% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
+}
+@keyframes changewordthird {
+  0% {
+    width: 0;
+  }
+  58.25% {
+    width: 0;
+  }
+  66% {
+    width: 125px;
+  }
+  85% {
+    width: 125px;
+  }
+  93.75% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
+}
+@-webkit-keyframes changewords {
+  0% {
+    width: 160px;
+  }
+  16.5% {
+    width: 160px;
+  }
+  25% {
+    width: 0;
+  }
+  33% {
+    width: 195px;
+  }
+  50% {
+    width: 195px;
+  }
+  58.25% {
+    width: 0;
+  }
+  66% {
+    width: 118px;
+  }
+  85% {
+    width: 118px;
+  }
+  93.75% {
+    width: 0;
+  }
+  100% {
+    width: 160px;
+  }
+}
+@keyframes changewords {
+  0% {
+    width: 160px;
+  }
+  16.5% {
+    width: 160px;
+  }
+  25% {
+    width: 0;
+  }
+  33% {
+    width: 195px;
+  }
+  50% {
+    width: 195px;
+  }
+  58.25% {
+    width: 0;
+  }
+  66% {
+    width: 118px;
+  }
+  85% {
+    width: 118px;
+  }
+  93.75% {
+    width: 0;
+  }
+  100% {
+    width: 160px;
+  }
+}  
+.dis1im img{
+	width: 100%;
+	height: 500px;
+}
+.dis2{
+	background-color: white;
+}
+.dis2vid video{
+	width: 100%;
+	height: 300px;
+  margin-right: 10px;
+}
+.dis2def h1{
+	font-size: 50px;
+	font-weight: thin;
+}
+.dis2def p{
+	font-size: 20px;
+	font-weight: lighter;
+}
+.dis3 h1{
+	font-size: 50px;
+	font-weight: thin;
+}
+.dis3 p{
+	font-size: 20px;
+	font-weight: lighter;
+}
+footer{
+	background-color: black;
+	color: white;
+}
+footer h3{
+	font-size: 30px;
+	font-weight: thin;
+}
+footer h4{
+	font-size: 25px;
+	font-weight: lighter;
+}
+footer i{
+	margin:0 5px;
+}
+@media only screen and (max-width: 576px){
+html{
+	margin: 0;
+	padding: 0;
+  max-width: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+nav{
+	overflow-x: hidden;
+	max-width: 100%;
+	padding: 0;
+}
+.col-12{
+	padding: 0;
+}
+#imgcon{
+  background-image:url(../static/lab1.jpg);
+  background-repeat:no-repeat;
+  position: absolute;
+  background-position: center;
+  background-size:100% 100%;
+  height: 450px; 
+  transform: translateY(30px) !important;	
+  width: 100%;
+}
+#imgcon h2{
+	text-align: center; 
+  padding-top:60vh !important;
+  color: white;
+  font-family: sans-serif;
+  font-style: italic;  
+  font-size: 40px;
+  font-weight:bold; 
+}
+.dis1{
+	margin-top: 450px;
+  max-width: 100%;
+  height: 400px;
+}
+.dis1im img{
+	margin-top:20px;
+	width:100%;
+	height:320px; 
+	margin-bottom: 20px;
+}
+.dis2{
+	background-color: white;
+  width: 100vw !important;
+  overflow-x: hidden;
+}
+video{
+  margin-top: 20px;
+  margin-left:30px;
+	margin-right:20px;
+  width: 75vw !important;
+	height: 250px !important;
+}
+.dis2def h1{
+	font-size: 30px;
+	font-weight: thin;
+}
+.dis2def p{
+	font-size: 15px;
+	font-weight: lighter;
+}
+.dis3 h1{
+	font-size: 30px;
+	font-weight: thin;
+}
+.dis3 p{
+	font-size: 15px;
+	font-weight: lighter;
+}
+footer{
+	background-color: black;
+	color: white;
+
+}
+footer h3{
+	font-size: 20px;
+	font-weight: thin;
+}
+footer h4{
+	font-size: 17px !important;
+	font-weight: lighter;
+}
+footer i{
+	margin:0 2px;
+}
+.flin{
+	border-left: 1px solid white;
+}
+.fimg{
+	margin-top: 20px;
+}
+}
+@media only screen and (max-width: 768px){
+  html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+nav{
+  overflow-x: hidden;
+  max-width: 100%;
+  padding: 0;
+}
+.col-12{
+  padding: 0;
+}
+#imgcon{
+  background-image:url(../static/lab1.jpg);
+  background-repeat:no-repeat;
+  position: absolute;
+  background-position: center;
+  background-size:100% 100%;
+  height: 500px; 
+  transform: translateY(10px);  
+  width: 100%;
+}
+#imgcon h2{
+  text-align: center; 
+  padding-top:50%;
+  color: white;
+  font-family: sans-serif;
+  font-style: italic;  
+  font-size: 40px;
+  font-weight:bold; 
+}
+  
+.dis1{
+  margin-top: 550px;
+  height: 450px !important;
+}
+.dis1im img{
+  margin-top:10px;
+  width:100%;
+  height:300px !important; 
+  margin-bottom:10px;
+}
+.dis2{
+  background-color: white;
+}
+.dis2vid video{
+  width: 44vw;
+  height: 300px;
+}
+.dis2def h1{
+  font-size: 35px;
+  font-weight: thin;
+}
+.dis2def p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.dis3 h1{
+  font-size: 35px;
+  font-weight: thin;
+}
+.dis3 p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+footer h3{
+  font-size: 20px;
+  font-weight: thin;
+}
+footer h4{
+  font-size: 15px;
+  font-weight: lighter;
+}
+footer i{
+  margin:0 2px;
+}
+}
+@media only screen and (max-width: 1024px){
+html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+nav{
+  overflow-x: hidden;
+  max-width: 100%;
+  padding: 0;
+}
+.col-12{
+  padding: 0;
+}
+#imgcon{
+  background-image:url(../static/lab1.jpg);
+  background-repeat:no-repeat;
+  position: absolute;
+  background-position: center;
+  background-size:100% 100%;
+  height: 525px; 
+  transform: translateY(-25px);  
+  width: 100%;
+}
+#imgcon h2{
+  text-align: center; 
+  padding-top:38%;
+  color: white;
+  font-family: sans-serif;
+  font-style: italic;  
+  font-size: 40px;
+  font-weight:bold; 
+}
+.dis1{
+  margin-top: 550px;
+  height: 400px !important;
+}
+.dis1im img{
+  margin-top:10px;
+  height:300px !important; 
+  margin-bottom:10px;
+}
+.dis2{
+  background-color: white;
+}
+.dis2vid video{
+  width: 44vw;
+  height: 300px;
+}
+.dis2def h1{
+  font-size: 35px;
+  font-weight: thin;
+}
+.dis2def p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.dis3 h1{
+  font-size: 35px;
+  font-weight: thin;
+}
+.dis3 p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+footer h3{
+  font-size: 25px;
+  font-weight: thin;
+}
+footer h4{
+  font-size: 20px;
+  font-weight: lighter;
+}
+footer i{
+  margin:0 2px;
+}
+.fimg{
+  margin-bottom: 20px;
+}
+}

@@ -11,8 +11,22 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/dex.css">
   <style type="text/css">
-    .spinner-border{
+    .spinner-border{  
       margin: 0 50% !important;
+    }
+    .pro{
+      text-align: center;
+      animation: moveInLeft 1s ease-out;
+    }
+    @keyframes moveInLeft{
+      0%{
+        opacity: 0;
+        transform: translateX(-200px);
+      }
+      100%{
+        opacity: 1;
+        transform: translateX(0);
+      }
     }
 
   </style>
@@ -44,20 +58,23 @@
     </ul>
   </div>  
 </nav>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="pro">PROJECTS</h1> 
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-3">
+     <div class="card" style="width:400px">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+  </div>
+</div>
 <div class="row">
 <div class=" col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <div class="container">

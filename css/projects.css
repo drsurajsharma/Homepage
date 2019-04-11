@@ -1,0 +1,201 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #9AF59B;
+}
+nav{
+  overflow-x: hidden;
+  max-width: 100%;
+  padding: 0;
+}
+.nav-link{
+      margin:0 30px;
+}
+
+    .jumbotron{
+      height: 100px;
+      background-color: transparent;
+    }
+    .pro{
+      text-align: center;
+      animation: moveInLeft 1s ease-out;
+    }
+    @keyframes moveInLeft{
+      0%{
+        opacity: 0;
+        transform: translateX(-200px);
+      }
+      100%{
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    /*projects*/
+    .projects .card{
+      height: 260px;
+      box-shadow: 5px 10px 5px rgba(0, 0, 0, 1);
+    }
+    .projects a i{
+      margin:0 5px;
+    }
+    .projects .left{
+      animation:cardInLeft 1s ease-out ;
+    }
+    @keyframes cardInLeft{
+      0%{
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      100%{
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    .projects .center{
+      animation:centerIn 1s ease-out;
+    }
+    @keyframes centerIn{
+      0%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 1;
+      }
+    }
+    .projects .right{
+      animation:cardInRight 1s ease-out ;
+    }
+    @keyframes cardInRight{
+      0%{
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      100%{
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    footer{
+      background-color: black;
+      color: white;
+      position: static;
+      margin-top: 60px;
+      width: 100%;
+     }
+  /*  footer{
+  background-color: black;
+  color: white;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+}
+*/
+footer h3{
+  font-size: 30px;
+  font-weight: thin;
+}
+footer h4{
+  font-size: 25px;
+  font-weight: lighter;
+}
+footer i{
+  margin:0 5px;
+}
+
+@media only screen and (max-width: 576px){
+  html{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+nav{
+  overflow-x: hidden;
+  max-width: 100%;
+  padding: 0;
+}
+
+.jumbotron{
+  margin-top: 50px;
+}
+
+.projects .card{
+ height: 300px;
+ box-shadow: 2.5px 5px 2.5px rgba(0, 0, 0, 1);
+ margin-bottom: 20px;
+}
+
+
+footer{
+  background-color: black;
+  color: white;
+
+}
+footer h3{
+  font-size: 20px;
+  font-weight: thin;
+}
+footer h4{
+  font-size: 17px !important;
+  font-weight: lighter;
+}
+footer i{
+  margin:0 2px;
+}
+.flin{
+  border-left: 1px solid white;
+}
+.fimg{
+  margin-top: 20px;
+}
+}
+
+@media only screen and (max-width: 768px){
+ html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+nav{
+  overflow-x: hidden;
+  max-width: 100%;
+  padding: 0;
+}
+.projects .card{
+ height: 399px;
+ box-shadow: 2.5px 5px 2.5px rgba(0, 0, 0, 1);
+ margin-bottom: 20px;
+ margin-right:-10px;
+}
+
+ footer{
+  background-color: black;
+  color: white;
+}
+footer h3{
+  font-size: 20px;
+  font-weight: thin;
+}
+footer h4{
+  font-size: 15px;
+  font-weight: lighter;
+}
+footer i{
+  margin:0 2px;
+}
+}

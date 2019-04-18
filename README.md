@@ -1,4 +1,4 @@
-# Project Title
+# HomePage of IOTCC LAB IIITBBSR
 
 ##### [Homepage](https://www.iotcclab.netlify.com) of IOT and Cloud Computing Lab of IIIT Bhubaneswar. 
 
@@ -23,5 +23,9 @@ We have used the [netlify](https://www.netlify.com) server for deployment and ou
 
 ## Authors
 
-- #####  [Debabrata Choudhary](https://github.com/LoneWolf38)
+- #####  [Debabrata Choudhury](https://github.com/LoneWolf38)
 See also the list of [contributors](https://github.com/Smart-City-IIIT-Bh/Homepage/graphs/contributors) who participated in this project.
+
+## Collaborator
+
+- ##### [Dr. Suraj Sharma](https://github.com/drsurajsharma)

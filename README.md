@@ -1,4 +1,4 @@
-# HomePage of IOTCC LAB IIITBBSR
+# IOTCC LAB IIITBBSR
 
 ##### [Homepage](https://www.iotcclab.netlify.com) of IOT and Cloud Computing Lab of IIIT Bhubaneswar. 
 
